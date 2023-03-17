@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import Countdown from "react-countdown";
-import Success from "../pages/Success";
 import "./OtpForm.css";
 import { useNavigate } from "react-router-dom";
 
