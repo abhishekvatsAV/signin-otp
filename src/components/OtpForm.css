@@ -1,0 +1,54 @@
+.backBtn {
+  color: #0858f7;
+  cursor: pointer;
+  size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.form > p {
+  color: #7a7a85;
+  font-weight: 500;
+}
+
+.form span {
+  color: #0858f7;
+}
+
+.otp-bx {
+  display: flex;
+  gap: 11.2px;
+}
+
+.otp-bx input{
+  width: 48px;
+  height: 56px;
+  border-radius: 8px;
+  text-align: center;
+  color: #18181B;
+  outline: none;
+  border: solid 1px #0858F7;
+  font-weight: 700;
+  transition: all 0.1s;
+}
+
+.otp-bx input:focus{
+  box-shadow: 0 0 0 4px #0055FF33;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer {
+  color: #CACACE;
+}
+.timer > span {
+  color: #CACACE;
+}
+
+.timeout{
+  cursor: pointer;
+  font-weight: 700;
+}

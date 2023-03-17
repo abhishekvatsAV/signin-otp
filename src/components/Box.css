@@ -1,0 +1,111 @@
+.box {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background: #0858F7;
+  height: 80vh;
+  width: 27rem;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.card > img{
+  width: 85%;
+}
+
+.details{
+  height: 45%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.details{
+  color: white;
+}
+
+.dot-share {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.dots{
+  display: flex;
+  gap: 11px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #ffffff53;
+}
+
+.selected{
+  background: #ffffff;
+}
+
+.share{
+  font-weight: 700;
+}
+
+.details p{
+  font-weight: 500;
+}
+
+.newbtn{
+  padding-top: 20px;
+}
+
+.newbtn>img{
+  height: 24px;
+}
+
+.card2{
+  position: absolute;
+  height: 70vh;
+  width: 27rem;
+  background: #0646C6;
+  background-image: linear-gradient(to right,white 50%, #0646C6 50%);
+  border-radius: 24px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  transform: rotate(5deg);
+  z-index: -1;
+  top:0;
+  right:0;
+  transition: all 0.5s ease-in-out;
+  transform-origin: 50% 70%;
+}
+
+.card3{
+  position: absolute;
+  height: 70vh;
+  width: 27rem;
+  background: #053594;
+  
+  background-image: linear-gradient(to right,white 50%, #053594 50%);
+  border-radius: 24px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  transform: rotate(10deg);
+  z-index: -2;
+  top:0;
+  right:0;
+  border: solid 1px white;
+  transition: all 0.5s ease-in-out;
+  transform-origin: 50% 70%;
+}
+
